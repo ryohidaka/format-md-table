@@ -51,6 +51,7 @@
     "**/*": "npx prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "markdown-table-prettify": "^3.6.0",
     "marked": "^12.0.1"
   }
 }
