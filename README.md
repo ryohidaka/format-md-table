@@ -52,12 +52,12 @@ Returns the formatted markdown string.
 ### Input:
 
 ```
-| Name    | Age | Gender |
-| ------- | --- | ------ |
-| Alice   | 30  | Female |
-| Bob     | 25  | Male   |
-| Charlie | 40  | Male   |
-| David   | 35  | Male   |
+|Name|Age|Gender|
+|-|-|-|
+|Alice|30|Female|
+|Bob|25|Male|
+|Charlie|40|Male|
+|David|35|Male|
 ```
 
 ### Output:
