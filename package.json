@@ -49,5 +49,8 @@
   },
   "lint-staged": {
     "**/*": "npx prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "marked": "^12.0.1"
   }
 }
