@@ -23,7 +23,53 @@ npm install format-md-table
 
 ## Usage
 
-## Link
+```ts
+import { formatMarkdownTable } from "format-md-table";
+
+const markdownString = `
+|Name|Age|Gender|
+|-|-|-|
+|Alice|30|Female|
+|Bob|25|Male|
+|Charlie|40|Male|
+|David|35|Male|
+`;
+
+const formattedMarkdown = formatMarkdownTable(markdownString);
+console.log(formattedMarkdown);
+```
+
+## API
+
+`formatMarkdownTable(markdownString: string = ""): string`
+Formats the markdown tables within the given markdown string.
+
+`markdownString` (optional): The markdown string to format. If not provided, an empty string is used.
+Returns the formatted markdown string.
+
+## Example
+
+### Input:
+
+```markdown
+| Name    | Age | Gender |
+| ------- | --- | ------ |
+| Alice   | 30  | Female |
+| Bob     | 25  | Male   |
+| Charlie | 40  | Male   |
+| David   | 35  | Male   |
+```
+
+### Output:
+
+```markdown
+| Name    | Age | Gender |
+| ------- | --- | ------ |
+| Alice   | 30  | Female |
+| Bob     | 25  | Male   |
+| Charlie | 40  | Male   |
+| David   | 35  | Male   |
+```
 
 ## License
 
