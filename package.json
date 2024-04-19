@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-template",
+  "name": "format-md-table",
   "version": "0.1.0",
-  "description": "Minimum configuration template for publishing packages to npm.",
+  "description": "Library to format only table elements in Markdown.",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryohidaka/npm-package-template.git"
+    "url": "git+https://github.com/ryohidaka/format-md-table.git"
   },
   "author": "ryohidaka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryohidaka/npm-package-template/issues"
+    "url": "https://github.com/ryohidaka/format-md-table/issues"
   },
-  "homepage": "https://github.com/ryohidaka/npm-package-template#readme",
+  "homepage": "https://github.com/ryohidaka/format-md-table#readme",
   "devDependencies": {
     "@types/node": "^20.12.7",
     "@vitest/coverage-v8": "^1.5.0",
