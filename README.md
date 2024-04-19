@@ -51,7 +51,7 @@ Returns the formatted markdown string.
 
 ### Input:
 
-```markdown
+```
 | Name    | Age | Gender |
 | ------- | --- | ------ |
 | Alice   | 30  | Female |
@@ -62,7 +62,7 @@ Returns the formatted markdown string.
 
 ### Output:
 
-```markdown
+```
 | Name    | Age | Gender |
 | ------- | --- | ------ |
 | Alice   | 30  | Female |
