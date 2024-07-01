@@ -52,6 +52,6 @@
   },
   "dependencies": {
     "markdown-table-prettify": "^3.6.0",
-    "marked": "^12.0.1"
+    "marked": "^13.0.1"
   }
 }
