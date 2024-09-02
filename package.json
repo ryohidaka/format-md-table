@@ -34,8 +34,8 @@
   },
   "homepage": "https://github.com/ryohidaka/format-md-table#readme",
   "devDependencies": {
-    "@types/node": "^20.12.7",
-    "@vitest/coverage-v8": "^1.5.0",
+    "@types/node": "^22.5.2",
+    "@vitest/coverage-v8": "^2.0.5",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-n": "^17.2.1",
@@ -43,15 +43,15 @@
     "lint-staged": "^15.2.2",
     "typescript": "^5.4.5",
     "vite": "^5.2.8",
-    "vite-plugin-dts": "^3.8.3",
-    "vite-tsconfig-paths": "^4.3.2",
-    "vitest": "^1.4.0"
+    "vite-plugin-dts": "^4.1.0",
+    "vite-tsconfig-paths": "^5.0.1",
+    "vitest": "^2.0.5"
   },
   "lint-staged": {
     "**/*": "npx prettier --write --ignore-unknown"
   },
   "dependencies": {
     "markdown-table-prettify": "^3.6.0",
-    "marked": "^12.0.1"
+    "marked": "^14.1.0"
   }
 }
